@@ -1,0 +1,68 @@
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header e Barra de Navegação */
+
+header {
+    background-color: #E5D6C3;
+    padding: 10px 40px;
+}
+
+.container-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #295C7A;
+}
+
+.menu__link:hover {
+    color: #6EB5E4;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img {
+    width: 45px;
+    height: 45px;
+}
+
+.nome-org {
+    font-size: 1.2rem;
+    color: #5E4631;
+}
+
+/* Body */
+
+body {
+    background-color: #F7F3EE;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5%;
+}
+
+/* Footer */
